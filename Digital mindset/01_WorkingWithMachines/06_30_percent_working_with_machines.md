@@ -1,0 +1,28 @@
+# GETTING TO 30 PERCENT
+
+- Working with Machines
+  - Accepting machines are not people
+  - Learning how machines work
+    - Basics of AI
+      - AI as the computer inside the robot
+      - Conversational user interface
+    - Components of AI
+      - Data
+      - Processing power
+      - Algorithms
+    - Technology stack
+      - Front-end system
+      - Back-end system
+      - Middleware
+    - Mimicking cognitive functions of people
+      - Learning and problem-solving
+    - Machine learning
+      - Generalizing from examples
+      - Learning without explicit programming
+    - Computational power and data
+      - Faster, more accurate calculations
+      - Clear and intentional tasks for AI
+    - Trusting machine's results
+      - Learning when to trust and when to check
+    - Collaborating with machines
+      - AI responds to explicit directions, not emotions

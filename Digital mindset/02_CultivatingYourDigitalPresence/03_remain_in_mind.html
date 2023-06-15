@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"root","depth":0,"content":"","children":[{"type":"heading","depth":1,"payload":{"lines":[0,1]},"content":"Focus on the Right Data","children":[{"type":"heading","depth":2,"payload":{"lines":[2,3]},"content":"Illustration: Atmospheric Research Lab","children":[{"type":"list_item","depth":3,"payload":{"lines":[4,5]},"content":"Digital collaboration tools expose vast amount of information"},{"type":"list_item","depth":3,"payload":{"lines":[5,6]},"content":"Not all visible data is important or useful"},{"type":"list_item","depth":3,"payload":{"lines":[6,7]},"content":"Social content can lead to focus on the wrong data"}]},{"type":"heading","depth":2,"payload":{"lines":[8,9]},"content":"Example: IT Technicians","children":[{"type":"list_item","depth":3,"payload":{"lines":[10,11]},"content":"Reorganization brings together IT technicians"},{"type":"list_item","depth":3,"payload":{"lines":[11,12]},"content":"Seniority initially used as proxy for expertise"},{"type":"list_item","depth":3,"payload":{"lines":[12,13]},"content":"Digital collaboration tool implemented"},{"type":"list_item","depth":3,"payload":{"lines":[13,14]},"content":"Jill, the most junior technician, is the most knowledgeable"},{"type":"list_item","depth":3,"payload":{"lines":[14,15]},"content":"Coworkers turn to Jill with questions"},{"type":"list_item","depth":3,"payload":{"lines":[15,16]},"content":"Peggy, the most senior technician, quits"},{"type":"list_item","depth":3,"payload":{"lines":[16,17]},"content":"Coworkers value Jill's technical details over Peggy's input"},{"type":"list_item","depth":3,"payload":{"lines":[17,18]},"content":"Peggy had cultural and political knowledge"},{"type":"list_item","depth":3,"payload":{"lines":[18,19]},"content":"Evaluations from scientists plummet after Peggy's departure"},{"type":"list_item","depth":3,"payload":{"lines":[19,20]},"content":"IT manager hires Peggy back and encourages diversifying knowledge sharing"}]},{"type":"heading","depth":2,"payload":{"lines":[21,22]},"content":"Importance of Visibility","children":[{"type":"list_item","depth":3,"payload":{"lines":[23,24]},"content":"Most visible information and knowledge perceived as most important"},{"type":"list_item","depth":3,"payload":{"lines":[24,25]},"content":"Contributions and strengths must show up in posts or messages"},{"type":"list_item","depth":3,"payload":{"lines":[25,26]},"content":"Organization benefits from recorded information"},{"type":"list_item","depth":3,"payload":{"lines":[26,27]},"content":"Establishing a digital presence requires intentional communication"}]}]},{"type":"heading","depth":1,"payload":{"lines":[28,29]},"content":"Remain &quot;In Mind&quot; When &quot;Out of Sight&quot;","children":[{"type":"heading","depth":2,"payload":{"lines":[30,31]},"content":"Challenges of Remote Work","children":[{"type":"list_item","depth":3,"payload":{"lines":[32,33]},"content":"Face-to-face interaction benefits lost in remote work"},{"type":"list_item","depth":3,"payload":{"lines":[33,34]},"content":"Nonverbal communication and spontaneous interaction diminished"},{"type":"list_item","depth":3,"payload":{"lines":[34,35]},"content":"Shared experiences and physical presence contribute to bonding"}]},{"type":"heading","depth":2,"payload":{"lines":[36,37]},"content":"Developing a Digital Mindset","children":[{"type":"list_item","depth":3,"payload":{"lines":[38,39]},"content":"Recognize the mutual knowledge problem in remote teams"},{"type":"list_item","depth":3,"payload":{"lines":[39,40]},"content":"Teams can become out of sync without physical presence"},{"type":"list_item","depth":3,"payload":{"lines":[40,41]},"content":"Managers must actively maintain presence in remote teams"},{"type":"list_item","depth":3,"payload":{"lines":[41,42]},"content":"Define presence as being noticeable and salient to others"},{"type":"list_item","depth":3,"payload":{"lines":[42,43]},"content":"Managing presence and building social lubrication"}]}]}],"payload":{}},null)</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+# Working with Machines
+
+- When Human Intelligence Meets Artificial Intelligence
+  - Lack of experience in interacting with machines
+  - Treating machines like humans
+- New Rules of Interaction
+  - Computational and machine learning algorithms
+  - Shifting nature of Wall Street trading
+  - Determining credit scores
+  - Screening and hiring applicants
+  - Real-time response of chatbots
+- Collaborating with AI Agents
+  - Integration of robots into various aspects of life
+  - Interacting with AI agents like Amy the scheduler
+  - Treating machines as machines
+  - Developing a digital mindset
+- Understanding Artificial Intelligence
+  - Machine learning basics
+  - Training AI on data sets
+  - Building models and using prediction techniques
+  - Machine learning, neural networks, natural language processing, and computer vision
+- How Artificial Intelligence Works
+  - Perception of AI in science fiction
+    - AI in movies
+    - Common misconceptions
+  - Current applications of AI
+    - Examples of AI in daily life
+    - Single-task AI vs. generalized AI
+    - AI's limitations in problem-solving and conversation
+    - Superintelligence and its characteristics
+  - Treating machines as machines
+    - AI as a machine executing algorithms
+    - Differentiating robots and AI
+    - AI ecosystem components
+      - Data, tools, and statistical models
+    - Examples of specific AI activities
+      - AI in cars
+      - AI in smartphones
+      - AI in email spam filters
+      - AI in thermostats
+      - AI in translation and voice recognition
+      - AI in decision-making processes
+      - AI in search engines and social media
+    - Widespread use of AI in various industries

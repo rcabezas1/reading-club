@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Definitions","children":[{"type":"bullet_list","depth":1,"payload":{"lines":[4,10]},"content":"","children":[{"type":"list_item","depth":2,"payload":{"lines":[4,5]},"content":"<strong>Digital:</strong> The interaction between data and technology."},{"type":"list_item","depth":2,"payload":{"lines":[5,6]},"content":"<strong>Data:</strong> Any information that can be used for reference, analysis, or computation."},{"type":"list_item","depth":2,"payload":{"lines":[6,7]},"content":"<strong>Technology:</strong> The creation, capture, transformation, transmission, or storage of data."},{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"<strong>Mindset:</strong> The set of approaches used to make sense out of the world."},{"type":"list_item","depth":2,"payload":{"lines":[8,9]},"content":"<strong>Digital Mindset:</strong> The set of approaches used to make sense of, and make use of, data and technology. It enables people and organizations to see new possibilities and chart a path for the future."}]},{"type":"heading","depth":1,"payload":{"lines":[10,11]},"content":"Digital Forces Reshaping How We Live and Work"},{"type":"heading","depth":1,"payload":{"lines":[14,15]},"content":"Redefining Key Processes","children":[{"type":"list_item","depth":2,"payload":{"lines":[18,19],"index":1},"content":"1. Collaboration"},{"type":"list_item","depth":2,"payload":{"lines":[19,20],"index":2},"content":"2. Computation"},{"type":"list_item","depth":2,"payload":{"lines":[20,21],"index":3},"content":"3. Change"}]},{"type":"heading","depth":1,"payload":{"lines":[22,23]},"content":"Building Skills and Developing a New Mindset"},{"type":"heading","depth":1,"payload":{"lines":[26,27]},"content":"The 30 Percent Rule","children":[{"type":"list_item","depth":2,"payload":{"lines":[28,29]},"content":"<strong>Explanation:</strong> The 30 percent rule is analogous to learning a foreign language, where achieving 30 percent proficiency is sufficient for effective communication."},{"type":"list_item","depth":2,"payload":{"lines":[29,30]},"content":"<strong>Applying to Digital Mindset:</strong> Mastering coding or becoming a data scientist is not necessary, but understanding key concepts and techniques is crucial."},{"type":"list_item","depth":2,"payload":{"lines":[30,31]},"content":"<strong>Skills Overview:</strong> The book specifies categories of skills needed for collaboration, computation, and change."},{"type":"list_item","depth":2,"payload":{"lines":[31,32]},"content":"<strong>Thinking Differently:</strong> Achieving 30 percent competence creates a foundation for thinking digitally and exploring new possibilities."},{"type":"list_item","depth":2,"payload":{"lines":[32,33]},"content":"<strong>Insights and Learning:</strong> The book provides new insights and connections to job, organizational strategy, and digital aspects."},{"type":"list_item","depth":2,"payload":{"lines":[33,34]},"content":"<strong>Goal:</strong> Attaining 30 percent proficiency in each area to develop a digital mindset."},{"type":"list_item","depth":2,"payload":{"lines":[34,35]},"content":"<strong>Key Insights:</strong> Distilled, synthesized, and curated key insights across digital domains."}]}]},null)</script>
+</body>
+</html>

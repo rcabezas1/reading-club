@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"How We’ll Proceed","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"Part One: New Approaches to Collaboration","children":[{"type":"list_item","depth":2,"payload":{"lines":[4,5]},"content":"Collaboration with machines and AI"},{"type":"list_item","depth":2,"payload":{"lines":[5,6]},"content":"Psychological and technical methods for working with AI-powered robots"},{"type":"list_item","depth":2,"payload":{"lines":[6,7]},"content":"Successful collaboration with human colleagues in the digital age"},{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"Becoming proficient in 30% of new collaboration behaviors"}]},{"type":"heading","depth":1,"payload":{"lines":[9,10]},"content":"Part Two: Approaching Computation","children":[{"type":"list_item","depth":2,"payload":{"lines":[11,12]},"content":"Understanding data collection, categorization, and storage"},{"type":"list_item","depth":2,"payload":{"lines":[12,13]},"content":"Presenting data persuasively"},{"type":"list_item","depth":2,"payload":{"lines":[13,14]},"content":"Avoiding bias in data representations"},{"type":"list_item","depth":2,"payload":{"lines":[14,15]},"content":"Statistical reasoning strategies in a digital environment"},{"type":"list_item","depth":2,"payload":{"lines":[15,16]},"content":"Learning 30% of statistical analysis and reasoning skills"}]},{"type":"heading","depth":1,"payload":{"lines":[17,18]},"content":"Part Three: Developing a New Approach to Change","children":[{"type":"list_item","depth":2,"payload":{"lines":[19,20]},"content":"Rethinking security in the digital era"},{"type":"list_item","depth":2,"payload":{"lines":[20,21]},"content":"Understanding blockchain and its impact on data security"},{"type":"list_item","depth":2,"payload":{"lines":[21,22]},"content":"Using experiments and digital exhaust for rapid learning"},{"type":"list_item","depth":2,"payload":{"lines":[22,23]},"content":"Transitioning to continuous change"},{"type":"list_item","depth":2,"payload":{"lines":[23,24]},"content":"Upskilling and implementing continuous learning"},{"type":"list_item","depth":2,"payload":{"lines":[24,25]},"content":"Maintaining a digital mindset over time"}]},{"type":"heading","depth":1,"payload":{"lines":[26,27]},"content":"Approach and Content","children":[{"type":"list_item","depth":2,"payload":{"lines":[28,29]},"content":"Mix of case examples, published studies, and interviews"},{"type":"list_item","depth":2,"payload":{"lines":[29,30]},"content":"Anonymity and pseudonyms used for confidentiality"},{"type":"list_item","depth":2,"payload":{"lines":[30,31]},"content":"Evidence-based suggestions for developing a digital mindset"}]},{"type":"heading","depth":1,"payload":{"lines":[32,33]},"content":"The Big Question","children":[{"type":"list_item","depth":2,"payload":{"lines":[34,35]},"content":"Do I need to learn how to code or read a programming language to build a digital mindset?","children":[{"type":"list_item","depth":3,"payload":{"lines":[35,36]},"content":"Probably not for most people","children":[{"type":"list_item","depth":4,"payload":{"lines":[36,37]},"content":"Understand operations behind digital technologies"}]},{"type":"list_item","depth":3,"payload":{"lines":[37,38]},"content":"Learning basic coding can help gain comfort and baseline","children":[{"type":"list_item","depth":4,"payload":{"lines":[38,39]},"content":"Depends on technical background and job role"}]},{"type":"list_item","depth":3,"payload":{"lines":[39,40]},"content":"Technical experience vs. less experienced people"}]},{"type":"list_item","depth":2,"payload":{"lines":[40,41]},"content":"All digital technologies developed using programming languages and algorithms"},{"type":"list_item","depth":2,"payload":{"lines":[41,42]},"content":"Importance of understanding algorithms, programming languages, and computing commands"},{"type":"list_item","depth":2,"payload":{"lines":[42,43]},"content":"Explaining computer programs","children":[{"type":"list_item","depth":3,"payload":{"lines":[43,44]},"content":"Behind slick user interfaces"}]},{"type":"list_item","depth":2,"payload":{"lines":[44,45]},"content":"Basics of algorithms will affect everything that follows","children":[{"type":"list_item","depth":3,"payload":{"lines":[45,46]},"content":"Collaboration"},{"type":"list_item","depth":3,"payload":{"lines":[46,47]},"content":"Computation"},{"type":"list_item","depth":3,"payload":{"lines":[47,48]},"content":"Change"}]},{"type":"list_item","depth":2,"payload":{"lines":[48,49]},"content":"Contextualize insights and skills introduced in later chapters"}]}]},null)</script>
+</body>
+</html>

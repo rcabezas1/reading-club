@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+          setTimeout(r);
+        })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"Social Lubrication for Digital Tools","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"Productively and intentionally interacting with collaborators and managers","children":[{"type":"list_item","depth":2,"payload":{"lines":[4,5]},"content":"Daily workflows","children":[{"type":"list_item","depth":3,"payload":{"lines":[5,6]},"content":"Participating in multiple chat messaging threads"},{"type":"list_item","depth":3,"payload":{"lines":[6,7]},"content":"Clicking on links shared by team members"},{"type":"list_item","depth":3,"payload":{"lines":[7,8]},"content":"Getting pinged about new activity in groups"},{"type":"list_item","depth":3,"payload":{"lines":[8,9]},"content":"Jumping on screen-sharing sessions"},{"type":"list_item","depth":3,"payload":{"lines":[9,10]},"content":"Co-editing documents"},{"type":"list_item","depth":3,"payload":{"lines":[10,11]},"content":"Reading companywide postings"}]},{"type":"list_item","depth":2,"payload":{"lines":[12,13]},"content":"Rise of internal social tools","children":[{"type":"list_item","depth":3,"payload":{"lines":[13,14]},"content":"Ubiquitous during the Covid-19 pandemic"},{"type":"list_item","depth":3,"payload":{"lines":[14,15]},"content":"Replacing email and phone communication"}]}]},{"type":"heading","depth":1,"payload":{"lines":[16,17]},"content":"Maximizing the use of internal social media platforms","children":[{"type":"heading","depth":2,"payload":{"lines":[18,19]},"content":"Articulate the purpose","children":[{"type":"list_item","depth":3,"payload":{"lines":[20,21]},"content":"Strengthening relationships and knowledge sharing"},{"type":"list_item","depth":3,"payload":{"lines":[21,22]},"content":"Contextual information metaknowledge"},{"type":"list_item","depth":3,"payload":{"lines":[22,23]},"content":"Leaders demonstrating the power of enterprise social networks"}]},{"type":"heading","depth":2,"payload":{"lines":[24,25]},"content":"Look to learn","children":[{"type":"list_item","depth":3,"payload":{"lines":[26,27]},"content":"Uncovering useful information"},{"type":"list_item","depth":3,"payload":{"lines":[27,28]},"content":"Borrowing ideas and solutions from other parts of the organization"},{"type":"list_item","depth":3,"payload":{"lines":[28,29]},"content":"Preventing duplication of work"},{"type":"list_item","depth":3,"payload":{"lines":[29,30]},"content":"Developing a digital mindset for knowledge sharing"}]},{"type":"heading","depth":2,"payload":{"lines":[31,32]},"content":"Get personal","children":[{"type":"list_item","depth":3,"payload":{"lines":[33,34]},"content":"Millennials and digital collaboration tools"},{"type":"list_item","depth":3,"payload":{"lines":[34,35]},"content":"Framing digital collaboration tools"},{"type":"list_item","depth":3,"payload":{"lines":[35,36]},"content":"Encouraging casual and non-work interactions"},{"type":"list_item","depth":3,"payload":{"lines":[36,37]},"content":"Friendly chats increasing networks for knowledge sharing"},{"type":"list_item","depth":3,"payload":{"lines":[37,38]},"content":"Personal insight into coworkers through digital collaboration tools"},{"type":"list_item","depth":3,"payload":{"lines":[38,39]},"content":"Assessing coworker likability and passable trust"}]}]},{"type":"heading","depth":1,"payload":{"lines":[40,41]},"content":"Benefits of exposure to ideas and insights from across the organization","children":[{"type":"list_item","depth":2,"payload":{"lines":[42,43]},"content":"Focusing attention on content from multiple departments"},{"type":"list_item","depth":2,"payload":{"lines":[43,44]},"content":"Balancing attention between immediate coworkers and others"},{"type":"list_item","depth":2,"payload":{"lines":[44,45]},"content":"Overcoming insularity in communication patterns"},{"type":"list_item","depth":2,"payload":{"lines":[45,46]},"content":"Developing a digital mindset for expanded networks"}]}]},null)</script>
+</body>
+</html>

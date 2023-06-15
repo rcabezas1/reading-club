@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Markmap</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #mindmap {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.min.css">
+</head>
+
+<body>
+  <svg id="mindmap"></svg>
+  <script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script>
+  <script>(r => {
+      setTimeout(r);
+    })(() => {
+      const {
+        markmap,
+        mm
+      } = window;
+      const toolbar = new markmap.Toolbar();
+      toolbar.attach(mm);
+      const el = toolbar.render();
+      el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+      document.body.append(el);
+    })</script>
+  <script>((getMarkmap, getOptions, root, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+            })(() => window.markmap, null, { "type": "heading", "depth": 0, "payload": { "lines": [0, 1] }, "content": "Digital Mindset", "children": [{ "type": "bullet_list", "depth": 1, "payload": { "lines": [2, 4] }, "content": "", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [2, 3] }, "content": "<a href=\"/01_WorkingWithMachines/00_introduction.html\">Introduction</a>" }] }, { "type": "heading", "depth": 1, "payload": { "lines": [4, 5] }, "content": "01 Working with machines", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [6, 7] }, "content": "<a href=\"/01_WorkingWithMachines/01_definitions.html\">Definitions</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [7, 8] }, "content": "<a href=\"/01_WorkingWithMachines/02_how_proceed.html\">How to proceed</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [8, 9] }, "content": "<a href=\"/01_WorkingWithMachines/03_algorithms.html\">Algorithms</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [9, 10] }, "content": "<a href=\"/01_WorkingWithMachines/04_working_with_machines.html\">Working with machines</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [10, 11] }, "content": "<a href=\"/01_WorkingWithMachines/05_how_do_machines_learn.html\">How Do Machines Learn</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [11, 12] }, "content": "<a href=\"/01_WorkingWithMachines/06_30_percent_working_with_machines.html\">30%</a>" }] }, { "type": "heading", "depth": 1, "payload": { "lines": [13, 14] }, "content": "02 Cultivating Your Digital Presence", "children": [{ "type": "list_item", "depth": 2, "payload": { "lines": [15, 16] }, "content": "<a href=\"/02_CultivatingYourDigitalPresence/00_being_there.html\">Beign There</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [16, 17] }, "content": "<a href=\"/02_CultivatingYourDigitalPresence/01_social_lubrication_dt.html\">Social Lubrication of digital tools</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [17, 18] }, "content": "<a href=\"/02_CultivatingYourDigitalPresence/02_focus.html\">Focus on the right data</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [18, 19] }, "content": "<a href=\"/02_CultivatingYourDigitalPresence/03_remain_in_mind.html\">Remain in mind even when you are not there</a>" }, { "type": "list_item", "depth": 2, "payload": { "lines": [19, 20] }, "content": "<a href=\"/02_CultivatingYourDigitalPresence/04_30_percent_digital_presence.html\">30%</a>" }] }] }, null)</script>
+</body>
+
+</html>

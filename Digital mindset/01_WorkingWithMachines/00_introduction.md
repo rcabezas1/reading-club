@@ -1,0 +1,22 @@
+# INTRODUCTION
+
+- Sara Menker and her mission
+- Digital transformation in agriculture
+- Challenges in accessing and analyzing agricultural data
+- Gro Intelligence and its data platform
+- Importance of a digital mindset
+- The book's aim and topics covered
+  - How much technical capability do I need?
+  - Do I need to learn how to code?
+  - What do I need to know about algorithms?
+  - What do I need to understand about big data
+  - How do I use digital tools effectively?
+  - What exactly is AI?
+  - Do I need to prepare to have a bot or robot on my team?
+  - How do I collaborate successfully when people are working remotely?
+  - What are the best ways to make sure my data and systems are secure?
+  - How do I develop skills to compete in a digital economy?
+  - Is digital transformation different than other transformations?
+  - How do I build a digital-first culture?
+  - Where do I start?
+- Benefits of a digital mindset
