@@ -1,5 +1,6 @@
 # Reading Club
-reading club mind maps
 
-- (Digital Mindset)[/Digital mindset/index.md]
-- [What is Domain-Driven Design](/What is Domain-Driven Design/index.md)
+Reading club mind maps
+
+- [Digital Mindset](/Digital%20mindset/index.md)
+- [What is Domain-Driven Design](/What%20is%20Domain-Driven%20Design/index.md)
